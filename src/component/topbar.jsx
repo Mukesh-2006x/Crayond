@@ -8,7 +8,7 @@ import Eleven from '../nav/11';
 
 export function Topbar() {
   return (
-    <div style={{ display: 'flex', alignItems: 'center', backgroundColor: '#1C1C1C', padding: '14px' }}>
+    <div style={{ display: 'flex', alignItems: 'center', backgroundColor: '#1C1C1C', padding: '5px' }}>
       
       <img src={log} width={100} alt="Logo" />
       <Divider orientation="vertical" flexItem style={{border:'0.5px solid rgb(174, 174, 174)',marginLeft: '10px'}}/>

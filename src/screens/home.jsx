@@ -1,10 +1,15 @@
 import React from 'react';
 import Pp from '../assets/pp.png';
+import Room from '../assets/room.jpg'
+import DeleteOutlineOutlinedIcon from '@mui/icons-material/DeleteOutlineOutlined';
+import LocalHotelOutlinedIcon from '@mui/icons-material/LocalHotelOutlined';
+import BathtubOutlinedIcon from '@mui/icons-material/BathtubOutlined';
+import HomeOutlinedIcon from '@mui/icons-material/HomeOutlined';
 
 export const Home = () => {
     return (
         <div style={{ backgroundColor: 'white', margin: '20px', borderRadius: '6px' }}>
-            <div style={{ padding: '10px' }}>
+            <div style={{ padding: '17px' }}>
                 <div style={{ display: 'inline', alignItems: 'center', cursor: 'pointer', fontSize: '13px' }}>
                     <p style={{ display: 'inline', margin: 0, color: 'blue' }}>Add Contact &gt; </p>
                     <p style={{ display: 'inline', margin: 0, color: 'blue' }}>Lead Details &gt; </p>
@@ -23,7 +28,7 @@ export const Home = () => {
                     </div>
                     <br />
 
-                    <div style={{ display: 'flex', alignItems: 'center', marginLeft: '20px', padding: '10px', border: '1px solid rgb(204, 204, 204)', borderRadius: '5px' }}>
+                    <div style={{ display: 'flex', alignItems: 'center', marginLeft: '20px', marginRight: '20px', padding: '10px', border: '1px solid rgb(204, 204, 204)', borderRadius: '5px' }}>
                         <img
                             src={Pp}
                             alt="Profile"
@@ -43,13 +48,13 @@ export const Home = () => {
                         </div>
                     </div>
 
-                    <hr style={{ marginLeft: '20px', marginTop: '20px', marginBottom: '10px' }} />
+                    <hr style={{ marginLeft: '20px', marginTop: '20px', marginBottom: '10px' ,marginRight:'20px'}} />
 
                     <div style={{ paddingLeft: '20px', display: 'inline-flex' }}>
                         <p style={{ color: '#333333', fontWeight: '500', paddingBottom: '10px' }}>Quotation Details</p>
                     </div>
 
-                    <div style={{paddingBottom:'110px'}}>
+                    <div style={{paddingBottom:'220px'}}>
                         <div style={{ display: 'inline-flex',flexDirection:'column' }}>
                             <p style={{ margin: 1.3, fontSize: '10px', color: '#333333', paddingLeft: '20px' }}>LEASE START DATE</p>
                             <p style={{ margin: 1.3, fontSize: '12px', paddingLeft: '20px', fontWeight: '500', paddingTop: '5px' }}>30 JAN 22</p>
@@ -64,11 +69,189 @@ export const Home = () => {
                         </div>
                         <div style={{ display: 'inline' ,flexDirection:'column'}}>
                             <p style={{ margin: 1.3, fontSize: '10px', color: '#333333', paddingLeft: '20px',paddingTop:'15px' }}>GRACE PERIOD</p>
-                            <p style={{ margin: 1.3, fontSize: '12px', paddingLeft: '20px', fontWeight: '500', paddingTop: '5px' }}>90 Days</p>
+                        
+                            <p style={{fontSize: '12px', paddingLeft: '20px', fontWeight: '500', paddingTop: '5px',display:'inline' }}>90 Days </p><p style={{display:'inline', fontSize: '10px', color: '#333333',paddingTop:'3px'}}>(Begnning)</p>
                         </div>
+
                     </div>
-                </div>
+                  
+                
             </div>
+
+
+
+
+
+
+
+
+
+
+            <div style={{ display: 'inline-flex', backgroundColor:'#E4E8EE'}}>
+                <div>
+                <div style={{ display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: '20px', padding: '20px', backgroundColor: '#E4E8EE' }}>
+    <div className="property-card">
+      <div className="property-image">
+        <div className="discount-tag" style={{ marginLeft: '10px' }}> % Discount Applied </div>
+        <img src={Room} style={{ width: '200px' }} alt="Room" />
+        <div className="delete-icon">
+          <DeleteOutlineOutlinedIcon style={{ borderRadius: '50%', fontSize: '20px', backgroundColor: '#E4E8EE', padding: '3px' }} />
+        </div>
+      </div>
+      <div className="property-details">
+        <h3 className="property-name">Jumeirah Estate</h3>
+        <div className="property-price">
+          <span className="price">$900.00</span>
+        </div>
+        <p className="property-location">Jumeirah Golf Estate • 2000 Sq.Ft</p>
+        <div className="property-info">
+          <span style={{ justifyContent: 'center' }}>
+            <LocalHotelOutlinedIcon style={{ fontSize: '18px', paddingRight: '8px' }} />
+          </span>
+          2 <div style={{ paddingLeft: '12px', paddingRight: '12px' }}>•</div>
+          <span>
+            <BathtubOutlinedIcon style={{ fontSize: '18px', paddingRight: '8px' }} />
+          </span>
+          2 <div style={{ paddingLeft: '12px', paddingRight: '12px' }}>•</div>
+          <span>
+            <HomeOutlinedIcon style={{ fontSize: '18px', paddingRight: '8px' }} />
+          </span>2BHK
+        </div>
+        <div className="customise-link">
+          <a href="/">+ Customise</a>
+        </div>
+      </div>
+    </div>
+
+    <div className="property-card">
+      <div className="property-image">
+        <div className="discount-tag" style={{ marginLeft: '10px' }}> % Discount Applied </div>
+        <img src={Room} style={{ width: '200px' }} alt="Room" />
+        <div className="delete-icon">
+          <DeleteOutlineOutlinedIcon style={{ borderRadius: '50%', fontSize: '20px', backgroundColor: '#E4E8EE', padding: '3px' }} />
+        </div>
+      </div>
+      <div className="property-details">
+        <h3 className="property-name">Jumeirah Estate</h3>
+        <div className="property-price">
+          <span className="price">$900.00</span>
+        </div>
+        <p className="property-location">Jumeirah Golf Estate • 2000 Sq.Ft</p>
+        <div className="property-info">
+          <span style={{ justifyContent: 'center' }}>
+            <LocalHotelOutlinedIcon style={{ fontSize: '18px', paddingRight: '8px' }} />
+          </span>
+          2 <div style={{ paddingLeft: '12px', paddingRight: '12px' }}>•</div>
+          <span>
+            <BathtubOutlinedIcon style={{ fontSize: '18px', paddingRight: '8px' }} />
+          </span>
+          2 <div style={{ paddingLeft: '12px', paddingRight: '12px' }}>•</div>
+          <span>
+            <HomeOutlinedIcon style={{ fontSize: '18px', paddingRight: '8px' }} />
+          </span>2BHK
+        </div>
+        <div className="customise-link">
+          <a href="/">+ Customise</a>
+        </div>
+      </div>
+    </div>
+
+
+
+    <div className="property-card">
+      <div className="property-image">
+        <div className="discount-tag" style={{ marginLeft: '10px' }}> % Discount Applied </div>
+        <img src={Room} style={{ width: '200px' }} alt="Room" />
+        <div className="delete-icon">
+          <DeleteOutlineOutlinedIcon style={{ borderRadius: '50%', fontSize: '20px', backgroundColor: '#E4E8EE', padding: '3px' }} />
+        </div>
+      </div>
+      <div className="property-details">
+        <h3 className="property-name">Jumeirah Estate</h3>
+        <div className="property-price">
+          <span className="price">$900.00</span>
+        </div>
+        <p className="property-location">Jumeirah Golf Estate • 2000 Sq.Ft</p>
+        <div className="property-info">
+          <span style={{ justifyContent: 'center' }}>
+            <LocalHotelOutlinedIcon style={{ fontSize: '18px', paddingRight: '8px' }} />
+          </span>
+          2 <div style={{ paddingLeft: '12px', paddingRight: '12px' }}>•</div>
+          <span>
+            <BathtubOutlinedIcon style={{ fontSize: '18px', paddingRight: '8px' }} />
+          </span>
+          2 <div style={{ paddingLeft: '12px', paddingRight: '12px' }}>•</div>
+          <span>
+            <HomeOutlinedIcon style={{ fontSize: '18px', paddingRight: '8px' }} />
+          </span>2BHK
+        </div>
+        <div className="customise-link">
+          <a href="/">+ Customise</a>
+        </div>
+      </div>
+    </div>
+
+
+
+    <div className="property-card">
+      <div className="property-image">
+        <div className="discount-tag" style={{ marginLeft: '10px' }}> % Discount Applied </div>
+        <img src={Room} style={{ width: '200px' }} alt="Room" />
+        <div className="delete-icon">
+          <DeleteOutlineOutlinedIcon style={{ borderRadius: '50%', fontSize: '20px', backgroundColor: '#E4E8EE', padding: '3px' }} />
+        </div>
+      </div>
+      <div className="property-details">
+        <h3 className="property-name">Jumeirah Estate</h3>
+        <div className="property-price">
+          <span className="price">$900.00</span>
+        </div>
+        <p className="property-location">Jumeirah Golf Estate • 2000 Sq.Ft</p>
+        <div className="property-info">
+          <span style={{ justifyContent: 'center' }}>
+            <LocalHotelOutlinedIcon style={{ fontSize: '18px', paddingRight: '8px' }} />
+          </span>
+          2 <div style={{ paddingLeft: '12px', paddingRight: '12px' }}>•</div>
+          <span>
+            <BathtubOutlinedIcon style={{ fontSize: '18px', paddingRight: '8px' }} />
+          </span>
+          2 <div style={{ paddingLeft: '12px', paddingRight: '12px' }}>•</div>
+          <span>
+            <HomeOutlinedIcon style={{ fontSize: '18px', paddingRight: '8px' }} />
+          </span>2BHK
+        </div>
+        <div className="customise-link">
+          <a href="/">+ Customise</a>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+    {/* Repeat the above card for the other 3 properties */}
+</div>
+
+            </div></div>
+        </div>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         </div>
     );
 };

@@ -25,7 +25,7 @@ const options = [
 
 export function NavBars() {
   return (
-    <div className="full" style={{ display: 'flex', flexDirection: 'row', height: '91.3vh' }}>
+    <div className="full" style={{ display: 'flex', flexDirection: 'row', height: '122vh' }}>
       
       <div className="navbar" style={{ width: '60px', backgroundColor: 'rgb(40, 40, 40)' }}>
         <center>
