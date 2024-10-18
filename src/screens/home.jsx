@@ -9,6 +9,14 @@ import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
 
 export const Home = () => {
+
+
+
+
+ 
+
+
+  
     return (
         <div style={{ backgroundColor: 'white', margin: '20px', borderRadius: '6px' }}>
             <div style={{ padding: '17px' }}>
