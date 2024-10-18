@@ -88,8 +88,9 @@ export const Home = () => {
 
 
 
-
-            <div style={{ display: 'inline-flex', backgroundColor:'#E4E8EE' }}>
+<div style={{backgroundColor:'#E4E8EE' }}>  <p style={{ color: '#333333', fontWeight: '500' ,paddingLeft:'14px',paddingRight:'14px',paddingTop:'14px'}}>Unit Details</p>
+            <div className='lo' style={{ display: 'inline-flex', }}>
+            
                 <div>
                 <div style={{ display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: '12px', padding: '20px', backgroundColor: '#E4E8EE' }}>
     <div className="property-card">
@@ -229,6 +230,14 @@ export const Home = () => {
     </div>
 
 
+    
+
+
+    
+
+
+
+
 
 
 
@@ -236,7 +245,7 @@ export const Home = () => {
 </div>
 
           
-            </div></div>
+            </div></div></div>
             <div>
  <h2 style={{fontSize:'14px',padding:'15px'}}>Quotation Summary</h2>
             <div className="quotation-summary">
@@ -261,7 +270,7 @@ export const Home = () => {
           <tr>
             <td><p>Total Refundable</p></td>
             <td><p>0%</p></td>
-            <td><strong>$0.00</strong></td>
+            <td><strong>$0</strong></td>
           </tr>
           <tr>
             <td><p>Total Tax</p></td>

@@ -27,8 +27,14 @@ header
   border: 1px solid #e5e7eb;
   border-radius: 8px;
   padding: 10px;
+  
  
   background-color: white;
+}
+.lo{
+overflow: scroll;
+  flex: 1;
+scrollbar-width: none;
 }
 
 .property-image {

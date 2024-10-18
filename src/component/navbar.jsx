@@ -25,12 +25,13 @@ const options = [
 
 export function NavBars() {
   return (
-    <div className="full" style={{ display: 'flex', flexDirection: 'row', height: '122vh' }}>
+    <div className="full" style={{ display: 'flex', flexDirection: 'row', height: '128vh' }}>
       
       <div className="navbar" style={{ width: '60px', backgroundColor: 'rgb(40, 40, 40)' }}>
         <center>
           <div style={{ marginTop: '10px' }}>
-            <Eleven style={{ backgroundColor: 'rgb(26, 144, 255)', borderRadius: '100%', padding: '10px' }} />
+            <div >
+            <Eleven style={{ backgroundColor: 'rgb(26, 144, 255)', borderRadius: '50%', padding: '10px' ,width:'10px'}} /></div>
           </div>
           
           <hr style={{ margin: '15px' }} />
